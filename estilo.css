@@ -54,14 +54,8 @@
     transition: 0.5s;
     color: black;
 }
-
-/* #titulo{
-    font-weight: bolder;
+@media screen and(max-width:768px) {
+    .corpo{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
-
-#desc{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-} */
